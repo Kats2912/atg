@@ -11,3 +11,214 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navi{
+  /* position: absolute; */
+width: 1440px;
+height: 72px;
+/* left: 0px;
+top: 0px; */
+
+background: #FFFFFF;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.navRight{
+  /* position: absolute; */
+width: 183px;
+height: 21px;
+/* left: 1161px;
+top: 27px; */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+
+color: #2E2E2E;
+
+}
+
+.navSearch{
+  /* position: absolute; */
+width: 360px;
+height: 42px;
+/* left: 540px;
+top: 16px; */
+
+background: #F2F2F2;
+border-radius: 21px;
+}
+.headingpic{
+  /* position: absolute; */
+width: 1890px;
+height: 440px;
+/* left: 0px;
+top: 72px; */
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.postPic{
+  height: 500px;
+  width: 800px;
+  max-height: 10rem;}
+
+  .postHeading{
+    /* position: absolute; */
+    width: 77px;
+    height: 25px;
+    /* left: 220px;
+    top: 868px; */
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #000000;
+  }
+.postNews{
+  /* position: absolute; */
+  width: 600px;
+  height: 60px;
+  /* left: 220px;
+  top: 903px; */
+  
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.17%;
+  /* or 30px */
+  
+  
+  color: #000000;
+}
+.postDescription{
+  /* position: absolute; */
+
+  width: 800px;
+  height: 25px;
+  /* left: 220px;
+  top: 975px; */
+  
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 134.17%;
+  /* or 25px */
+  
+  
+  color: #5C5C5C;
+}
+.postImage{
+  /* position: absolute; */
+  width: 48px;
+  height: 48px;
+  /* left: 220px;
+  top: 1032px; */
+  
+  /* background: url(''); */
+  border-radius: 24px;
+}
+.postName{
+  /* position: absolute; */
+  width: 125px;
+  height: 24px;
+  /* left: 278px;
+  top: 1044px; */
+  
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.postButton{
+  /* position: absolute; */
+  left: 57.64%;
+  right: 39.44%;
+  top: 41.91%;
+  bottom: 56.64%;
+  
+  background: #EDEEF0;
+  border-radius: 2px;
+}
+
+.postViews{
+
+  width: 69px;
+  height: 18px;
+ 
+  
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  
+  color: #525252;
+}
+.post3Dots{
+ 
+margin: 100px;
+  
+  background: white;
+  transform: rotate(90deg);
+}
+
+.post2{
+  margin: 10px 250px;
+  height: 350px;
+  width: 800px;
+  border-color: grey;
+ border-width: medium;
+  font-size: 200;
+  border-style: solid;
+  background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+box-shadow: var(--box-shadow);
+  padding: 20px;
+  
+  justify-content: space-between;
+  
+}
+.side{
+  text-align: right;
+}
+
+
+.navigation{
+  margin: 0px 0px 0px 250px;
+  display: flex;
+  padding: 10px;
+  
+}
+.navigation-right{
+  display: flex;
+}
+.group{
+  top: 655px;
+  left: 997px;
+  right: 200px;
+  bottom: 1728px;
+}
+.margini{
+  margin-left: 1200px;
+}
